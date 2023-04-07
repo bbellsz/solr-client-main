@@ -1,0 +1,17 @@
+<p>detail is working!</p>
+<div *ngIf="!isLoading">
+    <h2>{{ detail.name }}</h2>
+    <ul>
+      <li>Scientific Name: {{ detail.scientific_name }}</li>
+      <li>Family Name: {{ detail.family_name }}</li>
+      <li>Other Names: {{ detail.othername }}</li>
+      <li>Botanical Characteristics: {{ detail.botanical_characteristics }}</li>
+      <li>Flowering Period: {{ detail.flowering_period }}</li>
+      <li>Properties: {{ detail.properties }}</li>
+    </ul>
+  </div>
+  
+  <div *ngIf="isLoading">
+    <p>Loading...</p>
+  </div>
+  
