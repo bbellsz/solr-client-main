@@ -8,3 +8,28 @@ a {
     text-decoration: none;
   }
   
+body{
+    background-color: #ffffff;
+    font-family: Mitr;
+
+}
+
+.navg{
+  font-size: 36px;
+}
+
+.bnt-search{
+  font-size: 20px;
+}
+
+.bnt-detail{
+  font-size: 16px;
+}
+
+.text-detail{
+  font-size: 18px;
+}
+.box {
+  width: 360px;
+  margin-right: -1120px;
+}
